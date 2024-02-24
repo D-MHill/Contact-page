@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icons8.png">
+  
+</head>
+<body>
+    <header>
+        <img src="Images/icons8-trevo-de-três-folhas-50.png" alt="Logo">
+    </header>
+
+    <div>
+
+        <h1>Interested in our business pricing?</h1>
+            <h3>Fill out the form to view details and we'll contact you as soon as possible.</h3>
+
+        <form> 
+            <div class="grid">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>  
+                <div>
+                    <label for="email"> Company Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+            
+                <div>
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="sales">Sales</option>
+                
+            </select>
+        </div>
+        <div>
+            <label for="size">Company size</label>
+            
+            <select id="size" name="size">
+                <option value="10 - 50 employees">10 - 50 employees</option>
+                <option value="50 - 100 employees">50 - 100 employees</option>
+                <option value="100 - 150 employees">100 - 150 employees</option>
+                <option value="150 - 200 employees">150 - 200 employees</option>
+                <option value=" More than 200 employees">More than 200 employees</option>
+                
+            </select>
+        </div>
+        
+    </div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+            <button type="submit">Contact us</button>
+        </form>
+    </div>
+</body>
+</html>
